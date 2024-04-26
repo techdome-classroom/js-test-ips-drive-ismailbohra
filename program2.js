@@ -10,7 +10,7 @@ function longestSubstring(s) {
         if (seen[char]) {
             start = Math.max(start,seen[chart])
         }
-        
+        longest=
     }
 }
 

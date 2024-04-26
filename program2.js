@@ -8,7 +8,7 @@ function longestSubstring(s) {
     for (let i = 0; i < s.length; i++) {
         let char = s[i];
         if (seen[char]) {
-            start = Math.max(start,seen[chart])
+            start = Math.max(start,seen[char])
         }
         longest=Math.max(longest,i-start+1)
         seen[char]=i+1;

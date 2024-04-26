@@ -13,6 +13,7 @@ function longestSubstring(s) {
         longest=Math.max(longest,i-start+1)
         seen[char]=i+1;
     }
+    return longest;
 }
 
 module.exports = { longestSubstring };

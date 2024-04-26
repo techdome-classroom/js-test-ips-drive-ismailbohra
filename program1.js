@@ -5,8 +5,8 @@ function smallestMissingPositiveInteger(nums) {
 
     nums.sort((a,b)=>a-b);
     let smallestpositive =1
-    for (let i = 0; i < array.length; i++) {
-      const element = array[i];
+    for (let i = 0; i < nums.length; i++) {
+      const element = nums[i];
       
     }
   

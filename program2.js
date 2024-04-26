@@ -11,6 +11,7 @@ function longestSubstring(s) {
             start = Math.max(start,seen[chart])
         }
         longest=Math.max(longest,i-start+1)
+        seen[char]=i+1;
     }
 }
 

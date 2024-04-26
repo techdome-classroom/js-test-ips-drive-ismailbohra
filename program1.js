@@ -9,6 +9,7 @@ function smallestMissingPositiveInteger(nums) {
   for (let i = 0; i < nums.length; i++) {
     if (nums[i] < smallestpositive) {
       smallestpositive = nums[i] + 1
+      console.log(smallestpositive)
     }
   }
   return smallestpositive

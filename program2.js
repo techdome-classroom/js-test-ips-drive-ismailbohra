@@ -5,7 +5,7 @@ function longestSubstring(s) {
     let longest=0;
     let seen={};
     let start=0;
-    for (let i = 0; i < array.length; i++) {
+    for (let i = 0; i < s.length; i++) {
         let char = s[i];
         
     }

@@ -7,6 +7,9 @@ function longestSubstring(s) {
     let start=0;
     for (let i = 0; i < s.length; i++) {
         let char = s[i];
+        if (seen[char]) {
+            start = Math.max(start,seen[chart])
+        }
         
     }
 }

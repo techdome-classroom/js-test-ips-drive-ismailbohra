@@ -6,7 +6,7 @@ function smallestMissingPositiveInteger(nums) {
     nums.sort((a,b)=>a-b);
     let smallestpositive =1
     for (let i = 0; i < nums.length; i++) {
-      if (condition) {
+      if (nums[i]<smallestpositive) {
         
       }      
     }
